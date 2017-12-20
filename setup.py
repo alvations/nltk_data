@@ -36,7 +36,7 @@ setup(
   version = '0.0.1',
   description = 'Unofficial Python Package for All NLTK Data.',
 
-  package_data={'nltk_data_all':list(chain(*data_paths.values()))},
+  package_data={'packages':list(chain(*data_paths.values()))},
 
   classifiers = [
     'Development Status :: 5 - Production/Stable',
