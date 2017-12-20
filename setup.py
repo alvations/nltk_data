@@ -32,7 +32,7 @@ requires = ['nltk']
 
 setup(
   name = 'nltk_data_all',
-  packages = find_packages(),
+  packages = ['packages'],
   version = '0.0.1',
   description = 'Unofficial Python Package for All NLTK Data.',
 
